@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)),  url('../IMG/fundo2.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+header{ 
+    margin-top: 30px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.7);   
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    width: 100%;
+    height: 100vh;
+    margin-top: -40px;
+}
+
+.t1{
+    
+    width: 40%;
+    height: 75vh;
+    background-image: url('../IMG/fundo-carta.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.t1 p{
+    text-align: justify;
+    width: 65%;
+    height: 20vh;    
+    padding-top: 80px;
+    padding-left: 10px;
+    margin: 0 auto;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 5px rgba(182, 168, 168, 0.7);
+    
+   
+}
+
+.t1 p em{
+    font-weight: 600;
+}
+
+strong{
+    color: rgb(21, 39, 54);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+
+.img{ 
+    width: 8vw;
+    height: 15vh;
+    border-radius: 100px;    
+    box-shadow: 5px 1px 1px rgba(240, 220, 180, 0.5);
+    position: relative;
+    left: 195px;
+    top: 40px;
+    border: 5px solid #152736;
+      
+}
+
+.t2{
+    width: 25%;
+    position: relative;
+    top: 16vw;
+     
+}
+
+.t2 button{
+    width: 50%;
+    padding: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7));
+    border-radius: 25px  10px 25px 10px;
+    border-style: none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+    
+    
+}
+
+.b2{
+    position: relative;
+    right: 36vw;
+    bottom: 40px;
+}
+
+.t2 button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    
+}
+
+.t2 button:hover{
+    background: linear-gradient(to right, #680a0a, #43485B);
+}
+
+.t2 button a:hover{
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    background: linear-gradient(to right, #1d0404, #2f2f2f);
+    color: aliceblue;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    margin-top: -30px;
+    
+}

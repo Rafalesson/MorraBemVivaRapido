@@ -1,0 +1,154 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../IMG/fundo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+img{
+    border-radius: 10px;
+}
+header{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+header .menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background: linear-gradient(to right, #1d0404, #2f2f2f);
+}
+
+header .menu li{
+    display: inline-block;
+}
+
+header .menu a{
+    color: aliceblue;
+    padding: 10px 25px;
+    border-radius: 3px;
+    
+}
+
+header .menu .ativo, header .menu ul a:hover{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+.menu h1{
+    position: relative;
+    right: 130px;
+}
+
+.menu ul{
+    position: relative;
+    left: 130px;
+}
+
+main{
+    background-color: rgba(15, 15, 15, 0.70);
+    height: 100%;
+    width: 100%;
+}
+footer{
+    background: linear-gradient(to right, #1d0404, #2f2f2f);
+    color: aliceblue;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    
+}
+.personagens{
+    display: flex;
+    padding: 30px;
+    
+}
+.nome-persona{
+    color: aliceblue;
+    text-shadow: 15px 15px 15px rgb(14, 13, 13);
+    padding: 10px;
+}
+.texto-persona{
+    text-align: center;
+    padding: 15px;
+    color: seashell;
+    text-shadow: 15px 15px 15px rgb(14, 13, 13);
+}
+
+.p1, .p2, .p3{
+    background-color: rgba(39, 44, 40, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    width: 28%;
+    text-align: center;
+    height: 600px;  
+    border: 7px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 10px 10px 10px rgb(20, 20, 20);
+   
+}
+.p1:hover, .p2:hover, .p3:hover{
+    background-color: rgba(0, 0, 0, 0.7);    
+    width: 38%; 
+    font-size: larger;    
+    box-shadow: 10px 10px 10px rgb(20, 20, 20);   
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);;
+    
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+button{
+    width: 60%;
+    padding: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 30px;    
+    background: linear-gradient(to right, #ffffff, #000000);
+    border-style: none;
+}
+.b1:hover{ 
+    background: linear-gradient(to right, #d10884, #9900ff);
+    text-shadow: 5px 5px 5px rgb(20, 20, 20);
+    font-size: 18px;
+    width: 80%;
+    cursor: default;
+}
+.b2:hover{
+    background: linear-gradient(to right, #cf3014, #bda388);
+    text-shadow: 5px 5px 5px rgb(20, 20, 20);
+    font-size: 18px;
+    width: 80%;
+    cursor: default;
+}
+.b3:hover{
+    background: linear-gradient(to right, #680a0a, #43485B);
+    text-shadow: 5px 5px 5px rgb(20, 20, 20);
+    font-size: 18px;
+    width: 80%;
+    cursor: default;
+    
+}
+.nome-persona{
+    font-size: larger;
+}
+.texto-persona{
+    text-align: justify;
+}

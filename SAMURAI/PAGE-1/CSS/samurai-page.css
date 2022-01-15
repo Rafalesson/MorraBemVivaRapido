@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)),  url('../../IMG/fundo-samurai.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+header{  
+    padding: 10px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+    margin-top: 10px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    width: 100%;
+    height: 100vh;
+    margin-top: -40px;
+}
+
+.t1{
+    margin-top: 10px;
+    width: 38vw;
+    height: 100vh;
+    background-image: url('../../IMG/fundo-pergaminho.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    
+  
+}
+
+.t1 p, blockquote{
+    text-align: justify;
+    width: 70%;
+    height: 20vh;    
+    padding-top: 150px;
+    margin: 0 auto;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 5px rgba(182, 168, 168, 0.7);
+    
+   
+}
+
+blockquote{
+    font-family: 'Franklin Gothic Medium';
+    margin-top: -40px;
+    
+}
+
+strong{
+    color: #ff0000;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    
+}
+
+.img{ 
+    width: 8vw;
+    height: 15vh;
+    border-radius: 100px;    
+    box-shadow: 5px 1px 1px rgba(240, 220, 180, 0.5);
+    position: relative;
+    left: 195px;
+    top: 120px;
+      
+}
+
+.t2{
+    width: 25%;
+    position: relative;
+    top: 16vw;
+     
+}
+
+.t2 button{
+    width: 50%;
+    padding: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7));
+    border-radius: 25px  10px 25px 10px;
+    border-style: none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.7); 
+}
+
+.b2{
+    position: relative;
+    right: 36vw;
+    bottom: 60px;
+}
+
+.t2 button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    
+}
+
+.t2 button:hover{
+    width: 50%;
+    background: linear-gradient(to right, rgba(255, 5, 5, 0.7), rgba(238, 255, 3, 0.7));
+}
+
+.t2 button a:hover{
+    color: rgb(0,0,0);
+}
+
+footer{
+    background: linear-gradient(to right, #1d0404, #2f2f2f);
+    color: aliceblue;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    margin-top: -30px;
+    
+}

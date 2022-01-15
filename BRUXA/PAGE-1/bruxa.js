@@ -11,12 +11,12 @@ function nomeDafunção() {
             break;
         }
         else if (mensagem == 2) {
-            window.location.href = "C:/Users/thami/OneDrive/Documentos/Resilia/Projeto-Modulo-1/BRUXA/NAO-AJUDOU/nao-ajudou.html";
+            window.location.href = "C:/Users/thami/OneDrive/Documentos/Resilia/Projeto-Modulo-1/BRUXA/NAO-AJUDOU/nao-ajudou.html"
             break;
         }
         else {
-            alert('Digite 1 ou 2');
-            return nomeDafunção();
+            alert('Digite 1 ou 2')
+            return nomeDafunção()
         }
     }
 

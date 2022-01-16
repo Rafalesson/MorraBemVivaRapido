@@ -7,11 +7,11 @@ function nomeDafunção() {
         mensagem = prompt("Digite 1 para AJUDAR \n Digite 2 para NÃ0 AJUDAR");
 
         if (mensagem == 1) {
-            window.location.href = "C:/Users/thami/OneDrive/Documentos/Resilia/Projeto-Modulo-1/SAMURAI/AJUDOU/ajudou.html"
+            window.location.href = "../../AJUDOU/ajudou.html"
             break;
         }
         else if (mensagem == 2) {
-            window.location.href = "C:/Users/thami/OneDrive/Documentos/Resilia/Projeto-Modulo-1/SAMURAI/NAO-AJUDOU/nao-ajudou.html";
+            window.location.href = "../../NAO-AJUDOU/nao-ajudou.html";
             break;
         }
         else {

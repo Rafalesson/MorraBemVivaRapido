@@ -1,5 +1,7 @@
 # MorraBemVivaRapido
 
+![Sem título](https://user-images.githubusercontent.com/96597279/175740372-0c1dabe7-96bd-4435-9aec-314976459d5d.png)
+
  ### ⚠️ Em Desenvolvimento ⚠️
 > Projeto final do módulo I do curso de Desenvolvedor Web FullStack da Resilia
 
